@@ -1,11 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 5 version
+*/
+
 .header {
   /* display: flex; */
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
 
   &-title {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 0.8em;
     font-weight: normal;
-    line-height: 5;
+    line-height: 1.25;
+    display: none;
   }
 }

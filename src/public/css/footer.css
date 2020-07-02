@@ -1,16 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 5 version
+*/
+
 .footer {
   margin: 2em 0;
   &-content {
     font-size: 0.8em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1em;
+    display: none;
   }
 }
 
 .copyright {
-  color: #888;  
+  color: #888;
 }
 
 .links {

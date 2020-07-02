@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 5 version
+*/
+
 .icon {
   height: 1em;
   width: 1em;
@@ -13,12 +20,13 @@
     background-image: inline("../svg/up.svg");
   }
   &.down {
-    background-image: inline("../svg/down.svg")
+    background-image: inline("../svg/down.svg");
   }
 }
 
 .icon-status {
   border-radius: 100%;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
 }
 

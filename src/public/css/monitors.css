@@ -3,7 +3,7 @@
   align-items: center;
 
   &-detail {
-    font-size: 1.3em
+    font-size: 1.3em;
   }
 
   &-checktime {
@@ -31,7 +31,7 @@
     transition: background-color 150ms;
 
     &:hover {
-      background: var(--color-grey)
+      background: var(--color-grey);
     }
 
     .has-children & {
@@ -50,7 +50,6 @@
     }
   }
 }
-
 
 .monitors-content-wrap {
   max-height: 0;
@@ -71,11 +70,11 @@
   &-header {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
   }
 
   &-content {
-    margin-top: 1em;
+    margin-top: 0.5em;
     /* display: flex; */
     /* align-items: center;  */
   }
@@ -90,4 +89,10 @@
   &-uptimes {
     display: flex;
   }
+}
+
+.monitors-content {
+  display: flex;
+  flex-wrap: wrap;
+  color: #eee;
 }

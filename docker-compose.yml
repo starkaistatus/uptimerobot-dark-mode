@@ -2,14 +2,14 @@ version: "3"
 
 services:
   uptimerobot-page:
-    image: giuem/uptimerobot-page
+    image: overclockedllama/uptimerobot
     # build: .
     environment: 
       - PORT=3000
       - LOG_LEVEL=info
       - CRON_TIME=*/1 * * * *
       - UPTIME_ROBOT_API=
-      - UPTIME_ROBOT_NAME_PATTERN=%group/%name
+      - UPTIME_ROBOT_NAME_PATTERN=%name
       - WEBSITE_TITLE=
       - WEBSITE_COPYRIGHT=
     # To use config file for more flexible configure,

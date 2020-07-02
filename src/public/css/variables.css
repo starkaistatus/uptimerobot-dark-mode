@@ -1,11 +1,18 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 :root {
-  --color-base: #2d2d55;
-  --color-grey: #eef2f6;
+  --color-base: #eeee;
+  --color-grey: #1d1d1d;
   /* --color-green: #6AC259;
   --color-red: #F05228; */
 
-  --color-up: #6AC259;
+  --color-up: #6ac259;
   --color-seem-down: #ffdd57;
-  --color-down: #F05228;
+  --color-down: #f05228;
   --color-pause: #111;
 }

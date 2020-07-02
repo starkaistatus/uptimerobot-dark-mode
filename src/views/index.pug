@@ -21,6 +21,7 @@ html
   head
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(http-equiv="refresh" content="30")
     title=config.title
     link(rel="stylesheet", href="css/app.css")
   body
@@ -46,28 +47,28 @@ html
 
       section.content
         .container
-          - for (var index in data.groups)
-            .card.monitors.has-children
-              .monitors-header
-                .monitors-header-title=data.groups[index].name
-                if (data.groups[index].down > 0)
-                  .icon.icon-status.down
-                else
-                  .icon.icon-status.up
-              .monitors-content-wrap
-                .monitors-content
-                  each monitor in data.groups[index].monitors
-                    .monitor
-                      .monitor-header
-                        .monitor-name=monitor.name
-                        +monitorStatus(monitor.status)
-                      .monitor-content
-                        .monitor-uptime-range
-                          strong=monitor.totalUptime+ "% "
-                          span="uptime for the last " + monitor.uptime.length + " days."
-                        .monitor-uptimes
-                          each uptime in monitor.uptime
-                            +uptime(uptime)
+        - for (var index in data.groups)
+          .monitors-header
+            .monitors-header-title=data.groups[index].name
+            if (data.groups[index].down > 0)
+              .icon.icon-status.down
+            else
+              .icon.icon-status.up
+          .monitors-content
+            each monitor in data.groups[index].monitors
+              .monitor
+                .monitor-header
+                  .monitor-name=monitor.name
+                  +monitorStatus(monitor.status)
+                .monitor-content
+                  .monitor-uptime-range
+                    strong=monitor.totalUptime+ "% "
+                    span="uptime for the last " + monitor.uptime.length + " days."
+                  .monitor-uptimes
+                    each uptime in monitor.uptime
+                      +uptime(uptime)
+
+                      
 
 
 
