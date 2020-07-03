@@ -4,7 +4,7 @@ import { logger } from "../lib/logger";
 import { Parser } from "../lib/parser";
 import { format, addDays, addSeconds, startOfDay } from "date-fns";
 
-const distance = 45;
+const distance = 15;
 
 function lastDays(distance) {
   const now = startOfDay(new Date());
@@ -59,7 +59,9 @@ export default class UptimeRobotService {
       custom_uptime_ranges: ranges,
       statuses: require("config").get("uptimerobot.statuses")
     });
-    const monitors_filtered = monitors.filter(monitor => monitor["friendly_name"].match(this.parser.getRegex()))
+    const monitors_filtered = monitors.filter(monitor =>
+      monitor["friendly_name"].match(this.parser.getRegex())
+    );
     var isIndexed = false;
     for (let monitor of monitors_filtered) {
       let result = this.parser.parse(monitor["friendly_name"]);
