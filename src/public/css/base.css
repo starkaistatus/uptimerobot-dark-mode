@@ -18,7 +18,7 @@ body {
 
 #app {
   min-height: 100vh;
-  padding: 0 2em;
+  padding: 0 0em;
   color: var(--color-base);
   display: -webkit-box;
   display: -ms-flexbox;
