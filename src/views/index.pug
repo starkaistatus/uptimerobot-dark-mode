@@ -63,7 +63,7 @@ html
                 .monitor-content
                   .monitor-uptime-range
                     strong=monitor.totalUptime+ "% "
-                    span="uptime: last " + monitor.uptime.length + " days."
+                    span="uptime " + monitor.uptime.length + " days"
                   .monitor-uptimes
                     each uptime in monitor.uptime
                       +uptime(uptime)
