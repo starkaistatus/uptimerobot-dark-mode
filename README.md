@@ -5,7 +5,7 @@
 [![Docker Build Status](https://img.shields.io/docker/build/giuem/uptimerobot-page.svg?style=flat-square)](https://hub.docker.com/r/overclockedllama/uptimerobot/)
 [![license](https://img.shields.io/github/license/giuem/uptimerobot-page.svg?style=flat-square)](https://github.com/giuem/uptimerobot-page/blob/master/LICENSE)
 
-![](README_pic.png)
+![](https://raw.githubusercontent.com/overclockedllama/uptimerobot-dark-mode/master/README_pic.png)
 
 ## Requirements
 
