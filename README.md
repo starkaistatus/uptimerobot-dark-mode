@@ -2,7 +2,7 @@
 
 > Another status page based on [UptimeRobot](https://uptimerobot.com/)
 
-[![Docker Build Status](https://img.shields.io/docker/build/giuem/uptimerobot-page.svg?style=flat-square)](https://hub.docker.com/r/overclockedllama/uptimerobot/)
+[![Docker Build Status](https://img.shields.io/docker/build/overclockedllama/uptimerobot?style=flat-square)](https://hub.docker.com/r/overclockedllama/uptimerobot/)
 [![license](https://img.shields.io/github/license/giuem/uptimerobot-page.svg?style=flat-square)](https://github.com/giuem/uptimerobot-page/blob/master/LICENSE)
 
 ![](https://raw.githubusercontent.com/overclockedllama/uptimerobot-dark-mode/master/README_pic.png)
