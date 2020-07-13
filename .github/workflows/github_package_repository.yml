@@ -14,7 +14,7 @@ jobs:
       uses: machine-learning-apps/gpr-docker-publish@master
       id: docker
       with:
-        IMAGE_NAME: 'docker-chromium'
+        IMAGE_NAME: 'uptimerobot-dark-mode'
         TAG: 'latest'
         DOCKERFILE_PATH: 'Dockerfile'
         BUILD_CONTEXT: '.'
