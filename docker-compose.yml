@@ -8,7 +8,7 @@ services:
       - PORT=3000
       - LOG_LEVEL=info
       - CRON_TIME=*/1 * * * *
-      - UPTIME_ROBOT_API=u218577-cc00d1f088e90423c52e0415
+      - UPTIME_ROBOT_API=
       - UPTIME_ROBOT_NAME_PATTERN=%name
       - WEBSITE_TITLE=
       - WEBSITE_COPYRIGHT=
