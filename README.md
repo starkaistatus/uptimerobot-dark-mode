@@ -16,7 +16,7 @@
 ## Deploy
 
 ```bash
-wget https://raw.githubusercontent.com/giuem/uptimerobot-page/master/docker-compose.yml
+wget https://raw.githubusercontent.com/overclockedllama/uptimerobot-dark-mode/master/docker-compose.yml
 docker-compose up -d
 ```
 
