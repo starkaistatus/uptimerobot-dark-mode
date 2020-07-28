@@ -39,7 +39,7 @@
     "uptimerobot-apiv2": "^0.0.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
+    "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
