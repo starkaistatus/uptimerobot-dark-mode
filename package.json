@@ -31,7 +31,7 @@
     "immutable": "^3.8.2",
     "js-yaml": "^3.14.0",
     "koa": "^2.13.0",
-    "koa-router": "^7.3.0",
+    "koa-router": "^9.1.0",
     "koa-static-cache": "^5.1.2",
     "koa-views": "^6.3.0",
     "memory-cache": "^0.2.0",
