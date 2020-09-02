@@ -42,7 +42,7 @@
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.4",
     "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-env": "^7.11.5",
     "autoprefixer": "^9.8.6",
     "ava": "1.0.0-rc.1",
     "browser-sync": "^2.26.12",
