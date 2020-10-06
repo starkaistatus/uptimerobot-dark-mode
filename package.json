@@ -47,7 +47,7 @@
     "ava": "1.0.0-rc.1",
     "browser-sync": "^2.26.12",
     "cheerio": "^1.0.0-rc.3",
-    "codecov": "^3.7.2",
+    "codecov": "^3.8.0",
     "cssnano": "^4.1.10",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
