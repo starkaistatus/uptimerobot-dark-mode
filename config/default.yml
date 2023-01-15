@@ -1,6 +1,6 @@
 # default configure
 app:
-  port: 3000
+  port: 8080
   log_level: debug
   crontime: "*/5 * * * *"
 
@@ -10,10 +10,10 @@ uptimerobot:
   statuses: "2-9"
 
 website:
-  title: "Uptime Robot Status"
-  copyright: "Uptime Robot"
+  title: "Stark AI Status"
+  copyright: "Stark AI"
   links:
     - name: Home
-      href: https://uptimerobot.com
-    - name: GitHub
-      href: https://github.com/giuem/uptimerobot-page
+      href: https://status.starkai.live
+    - name: Stark AI
+      href: https://starkai.live
