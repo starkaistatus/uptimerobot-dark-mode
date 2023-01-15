@@ -1,18 +1,19 @@
+# default configure
 app:
-  port: 3000
-  log_level: info
+  port: 8080
+  log_level: debug
   crontime: "*/5 * * * *"
 
 uptimerobot:
-  api_key: fake_api_key
+  api_key:
   pattern: "%group/%name"
   statuses: "2-9"
 
 website:
-  title: "Uptime Robot Status"
-  copyright: "Uptime Robot"
+  title: "Stark AI Status"
+  copyright: "Stark AI"
   links:
     - name: Home
-      href: https://uptimerobot.com
-    - name: GitHub
-      href: https://github.com/giuem/uptimerobot-page
+      href: https://status.starkai.live
+    - name: Stark AI
+      href: https://starkai.live
